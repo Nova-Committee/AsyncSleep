@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "committee.nova.asyncsleep.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "asyncsleep.refmap.json",
+  "mixins": [
+    "MixinServerLevel",
+    "MixinServerPlayer",
+    "MixinSleepStatus"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
